@@ -3,7 +3,7 @@ require_relative "./user.rb"
 class Student < User
 
   def new
-    @knowledge_array = []
+    knowledge_array = []
   end
   
   def learn(knowledge)
