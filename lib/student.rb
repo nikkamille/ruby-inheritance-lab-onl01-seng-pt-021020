@@ -7,7 +7,7 @@ class Student < User
   end
   
   def learn(knowledge) #takes in an argument of a
-    @knowledge_array << knowledge
+    @knowledge << knowledge
   end
   
   #def knowledge
