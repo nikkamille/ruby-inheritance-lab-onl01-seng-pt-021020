@@ -2,8 +2,8 @@ require_relative "./user.rb"
 
 class Student < User
 
-  def new
-    @knowledge_array = []
+  def new #initializes with an empty knowledge array
+    @knowledge = []
   end
   
  # def learn(knowledge)
