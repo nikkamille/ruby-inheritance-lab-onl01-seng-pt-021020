@@ -6,7 +6,7 @@ class Student < User
     @knowledge_array = []
   end
   
-  def learn(knowledge)
+  def learn(knowledge) #takes in an argument of a string
     @knowledge_array << knowledge
   end
   
