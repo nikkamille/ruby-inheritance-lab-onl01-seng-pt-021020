@@ -6,12 +6,12 @@ class Student < User
     knowledge_array = []
   end
   
-  def learn(knowledge)
-    @knowledge_array << knowledge
-  end
+ # def learn(knowledge)
+  #  @knowledge_array << knowledge
+  #end
   
-  def knowledge
+  #def knowledge
     
-  end
+  #end
 
 end
